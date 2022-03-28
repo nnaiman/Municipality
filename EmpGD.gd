@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2969
+Password=2548
 Database=
 DateFormat=
 CommitCount=0
@@ -14,7 +14,7 @@ InitScript=
 [Table]
 Owner=SYSTEM
 Name=EMPLOYEE
-Count=10..20
+Count=1000
 
 [Record]
 Name=ID
@@ -62,7 +62,7 @@ Master=
 Name=ROLE
 Type=VARCHAR2
 Size=20
-Data=Elements.Name
+Data=[@@@@@@@@@@]
 Master=
 
 [Record]

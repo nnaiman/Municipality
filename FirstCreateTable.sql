@@ -7,7 +7,7 @@ CREATE TABLE Employee
   salary INT NOT NULL,
   bankDetail VARCHAR(20) NOT NULL,
   role VARCHAR(20) NOT NULL,
-  Email VARCHAR(30) NOT NULL,
+  Email VARCHAR(60) NOT NULL,
   PRIMARY KEY (ID)
 );
 

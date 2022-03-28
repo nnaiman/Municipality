@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2118
+Password=2910
 Database=
 DateFormat=
 CommitCount=0
@@ -14,7 +14,7 @@ InitScript=
 [Table]
 Owner=SYSTEM
 Name=RESIDENT
-Count=10..20
+Count=5000
 
 [Record]
 Name=ID

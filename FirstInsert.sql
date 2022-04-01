@@ -13,11 +13,14 @@ values (230927098, 'Delroy Sinise', '0543560228', 'delroy.s@balchem.com', '26894
 insert into EMPLOYEE (ID, NAME, PHONE, EMAIL, BANKDETAIL, ADDRESS, SALARY, ROLE)
 values (673197487, 'Malcolm Peet', '0594606851', 'malcolm.peet@technica.com', '13336', '36 Gothenburg Street', 1000, 'asndan');
 
+insert into SYSTEM.EMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (777275536, 'Janeane Ward', '18 Watson Street', '0505914439', 129511, '6598', 'ClSJBkjOuc', 'janeanew@fns.ar');
+
 insert into PROFEMP (ID)
 values (583990715);
 
 insert into PROFEMP (ID)
-values (523624920);
+values (777275536);
 
 insert into PROFEMP (ID)
 values (158387926);
@@ -191,7 +194,7 @@ insert into Inspector(ID)
 values (583990715);
 
 insert into Inspector(ID)
-values (523624920);
+values (777275536);
 
 insert into Inspector(ID)
 values (158387926);

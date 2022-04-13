@@ -1,107 +1,40 @@
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 194243195);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 428460925);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 458671344);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 440602791);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 464914277);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 506260770);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 391043435);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 554353039);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 489492035);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 260087524);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 743090396);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 195005985);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 678595222);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 373965010);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 692301696);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 202242371);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 386639566);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 847726435);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 862724973);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 712883247);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 218892029);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 116775803);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 402713784);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 837045364);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 468456810);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 947309915);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 272577592);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 225400800);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Likud', 131344798);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 792211068);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 379535076);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 787554315);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Meretz', 266458572);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Yesh Atid', 742907963);
-
-insert into SYSTEM.POLEMP (PARTY, ID)
-values ('Habait Hayehudi', 218892029);
-
-commit;
-
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',264923318);
+insert into SYSTEM.POLEMP(party,ID) values ('Yahadut Hatora',732443096);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',469946977);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',833478221);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',611334742);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',192698090);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',418945827);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',128614588);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',613786911);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',443118378);
+insert into SYSTEM.POLEMP(party,ID) values ('Yahadut Hatora',950559381);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',332193376);
+insert into SYSTEM.POLEMP(party,ID) values ('Zionut Datit',401270717);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',389652394);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',170547834);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',583990715);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',523624920);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',230927098);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',673197487);
+insert into SYSTEM.POLEMP(party,ID) values ('Yahadut Hatora',961793382);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',102659453);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',470566874);
+insert into SYSTEM.POLEMP(party,ID) values ('Yahadut Hatora',159158201);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',964233160);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',702391153);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',557832378);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',767534900);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',776156828);
+insert into SYSTEM.POLEMP(party,ID) values ('Zionut Datit',882814796);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',865806214);
+insert into SYSTEM.POLEMP(party,ID) values ('Likud',460937268);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',326401356);
+insert into SYSTEM.POLEMP(party,ID) values ('Yesh Atid',103848952);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',420238651);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',445014105);
+insert into SYSTEM.POLEMP(party,ID) values ('Avoda',813975969);
+insert into SYSTEM.POLEMP(party,ID) values ('Yahadut Hatora',262700021);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',443172237);
+insert into SYSTEM.POLEMP(party,ID) values ('Shas',391241797);
+insert into SYSTEM.POLEMP(party,ID) values ('Merets',704869902);

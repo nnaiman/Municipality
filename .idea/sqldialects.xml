@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/DGChairman.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/DGCommittee.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/DGEmployee.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/DGEmployeeR.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/DGPolemp.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/DGResident.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/FirstCreateTable.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstDROPTable.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstDeleteAll.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstInsert.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstSelectAll.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGChairman.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGCommittee.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGEmployee.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGEmployeeR.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/GD/DGPolemp.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGResident.sql" dialect="GenericSQL" />
     <file url="PROJECT" dialect="GenericSQL" />
   </component>
 </project>

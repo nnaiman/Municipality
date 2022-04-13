@@ -118,7 +118,7 @@ CREATE TABLE Institution
 (
   address VARCHAR(30) NOT NULL,
   instName VARCHAR(30) NOT NULL,
-  type CHAR(10) NOT NULL,
+  type CHAR(40) NOT NULL,
   commitName VARCHAR(30) NOT NULL,
   PRIMARY KEY (address),
   FOREIGN KEY (commitName) REFERENCES Committee(Name)

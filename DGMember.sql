@@ -1,0 +1,15 @@
+insert into SYSTEM.MEMBER(ID) values ('221573011');
+insert into SYSTEM.MEMBER(ID) values ('940046023');
+insert into SYSTEM.MEMBER(ID) values ('157970965');
+insert into SYSTEM.MEMBER(ID) values ('858776225');
+insert into SYSTEM.MEMBER(ID) values ('369589351');
+insert into SYSTEM.MEMBER(ID) values ('682488428');
+insert into SYSTEM.MEMBER(ID) values ('424428722');
+insert into SYSTEM.MEMBER(ID) values ('492083823');
+insert into SYSTEM.MEMBER(ID) values ('661579102');
+insert into SYSTEM.MEMBER(ID) values ('420676691');
+insert into SYSTEM.MEMBER(ID) values ('825619589');
+insert into SYSTEM.MEMBER(ID) values ('272494951');
+insert into SYSTEM.MEMBER(ID) values ('975286099');
+insert into SYSTEM.MEMBER(ID) values ('782309922');
+insert into SYSTEM.MEMBER(ID) values ('928321429');

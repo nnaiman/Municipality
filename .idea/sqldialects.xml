@@ -6,12 +6,27 @@
     <file url="file://$PROJECT_DIR$/FirstDeleteAll.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstInsert.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/FirstSelectAll.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGBudget.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/GD/DGChairman.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/GD/DGCommittee.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/GD/DGEmployee.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/GD/DGEmployeeR.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/GD/DGEmployeeR.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGInquiries.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGInstitution.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGMember.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGMemberAt.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/GD/DGPolemp.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/GD/DGResident.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/GD/DGResident.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/DGprofEmp.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_COLLECTION.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_DONATION.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_DONOR.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_FINES.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_GOVFUND.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_INSPECTOR.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_SOURCE.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/GD/shv/SYSTEM_TAXES.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/integrateCreate.sql" dialect="Oracle" />
     <file url="PROJECT" dialect="GenericSQL" />
   </component>
 </project>

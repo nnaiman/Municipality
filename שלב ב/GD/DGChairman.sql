@@ -1,0 +1,11 @@
+insert into SYSTEM.CHAIRMAN(ID) values ('540381320');
+insert into SYSTEM.CHAIRMAN(ID) values ('461302434');
+insert into SYSTEM.CHAIRMAN(ID) values ('984907020');
+insert into SYSTEM.CHAIRMAN(ID) values ('692063529');
+insert into SYSTEM.CHAIRMAN(ID) values ('357387081');
+insert into SYSTEM.CHAIRMAN(ID) values ('272628715');
+insert into SYSTEM.CHAIRMAN(ID) values ('462423599');
+insert into SYSTEM.CHAIRMAN(ID) values ('646612513');
+insert into SYSTEM.CHAIRMAN(ID) values ('893538157');
+insert into SYSTEM.CHAIRMAN(ID) values ('827706241');
+commit;

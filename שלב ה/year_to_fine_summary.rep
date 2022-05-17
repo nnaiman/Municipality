@@ -1,0 +1,197 @@
+PL/SQL Developer Report
+
+[SQL]
+select reason "Reason", sum(amount) "Sum", count(*) "Count"
+from fines natural join source
+where year = &<name="Year"
+              list="select(year) from budget"
+              type=integer>
+group by reason;
+
+[Options]
+Connect=False
+Username=
+Password=2259
+Database=
+ConnectAs=Normal
+LockMode=0
+LockedPassword=2094
+BkgColor=6723891
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=
+Style=Blue Title
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=Custom...
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=False
+Name=Tabular Tables
+Description=
+Style=Custom...
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=False
+Name=Form Tables
+Description=
+Style=Default Form Tables
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=False
+Name=Default Field
+Description=
+Style=Custom...
+HeaderStyle=Custom...
+Align=3
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=Reason
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=Sum
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=Count
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+
+
+[CSS]
+*4-Default Field
+{
+  Background: #FFFBF0;
+  Color: #000000;
+  Border-style: Solid;
+  Border-width: 2px;
+  Border-Color: #FFFFFF;
+  Font-family: "@Malgun Gothic Semilight";
+  Font-size: 8pt;
+  Text-align: Center;
+  Width: 100%;
+}
+
+*5-Default Field
+{
+  Background: #A0A0A4;
+  Color: #000000;
+  Border-style: Solid;
+  Border-width: 1px;
+  Border-Color: #000000;
+  Font-family: "Cascadia Mono SemiLight";
+  Font-size: 12pt;
+  Font-weight: Bolder;
+  Text-align: Center;
+}
+
+**4-Tabular Tables
+{
+  Background: #008080;
+  Color: #0066CC;
+  Border-style: None;
+  Width: 50%;
+}
+
+**4-Report Title
+{
+  Background: #800000;
+}
+
+**4-Form Tables
+{
+  Background: #808000;
+}
+
+**4-Variables
+{
+  Background: #333399;
+  Color: #E0E0FF;
+  Border-style: None;
+  Border-width: 0px;
+  Border-Color: #808000;
+  Padding: 3px;
+  Font-family: Arial;
+  Font-size: 7pt;
+  Font-weight: Bold;
+  Width: 100%;
+}
+
+Blue Title
+{
+  Background: #000050;
+  Color: #FFFF00;
+  Font-family: "Arial Black";
+  Font-size: 12pt;
+  Font-style: Italic;
+  Text-align: Center;
+  Width: 100%;
+}
+
+Default Form Tables
+{
+  Color: #000000;
+  Border-style: None;
+}
+
+

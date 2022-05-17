@@ -1,0 +1,138 @@
+PL/SQL Developer Report
+
+[SQL]
+select type, count(*) "Total Count", count(CASE WHEN status='0' THEN 1 END) "Not Resolved Count"
+from Inquiries I
+where I.COMMITNAME = &<name="Committee"
+                      list="select(cname) from committee"
+                      type=string>
+group by type;
+
+[Options]
+Connect=False
+Username=
+Password=2809
+Database=
+ConnectAs=Normal
+LockMode=0
+LockedPassword=2493
+BkgColor=6723891
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=Custom...
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=False
+Name=Tabular Tables
+Description=
+Style=Custom...
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=False
+Name=Form Tables
+Description=
+Style=Default Form Tables
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=False
+Name=Default Field
+Description=
+Style=Custom...
+HeaderStyle=Custom...
+Align=0
+Break=0
+Function=0
+Format=
+
+
+
+[CSS]
+**4-Variables
+{
+  Background: #008080;
+  Color: #E0E0FF;
+  Border-style: None;
+  Border-width: 0px;
+  Border-Color: #808000;
+  Padding: 3px;
+  Font-family: Arial;
+  Font-size: 12pt;
+  Font-weight: Bold;
+  Text-align: Center;
+  Width: 100%;
+}
+
+**4-Tabular Tables
+{
+  Background: #A6CAF0;
+  Text-align: Center;
+  Width: 50%;
+}
+
+*4-Default Field
+{
+  Background: #C0DCC0;
+  Color: #808000;
+  Text-align: Center;
+  Width: 25%;
+}
+
+*5-Default Field
+{
+  Background: #008000;
+  Color: #000000;
+  Border-style: Double;
+  Border-width: 3px;
+  Border-Color: #000080;
+  Font-family: "Bahnschrift SemiBold";
+  Font-size: 12pt;
+  Font-weight: Bold;
+  Text-align: Center;
+}
+
+Default Form Tables
+{
+  Color: #000000;
+  Border-style: None;
+}
+
+

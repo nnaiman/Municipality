@@ -1,0 +1,26 @@
+insert into EMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (583990715, 'Selma Crewson', '4 Buscemi Street', '0554435526', 12263, '50697', 'americium', 'selma@dillards.fi');
+
+insert into EMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (523624920, 'Leelee Nolte', '271 Spacey Street', '0519136706', 141084, '83426', 'strontium', 'leelee.nolte@sht.de');
+
+insert into EMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (158387926, 'Rebecca Imperioli', '566 Kutcher Ave', '0578927687', 54164, '70834', 'osmium', 'rebeccai@shar.com');
+
+insert into PROFEMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (583990715);
+
+insert into PROFEMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (523624920);
+
+insert into PROFEMPLOYEE (ID, NAME, ADDRESS, PHONE, SALARY, BANKDETAIL, ROLE, EMAIL)
+values (158387926);
+
+insert into RESIDENT (ID, NAME, ADDRESS, PHONE, EMAIL, MAIL)
+values (583990715, 'Selma Crewson', '4 Buscemi Street', '0554435526', 'selma@dillards.fi', '78978');
+
+insert into RESIDENT (ID, NAME, ADDRESS, PHONE, EMAIL, MAIL)
+values (523624920, 'Leelee Nolte', '271 Spacey Street', '0519136706', 'leelee.nolte@sht.de', '12345');
+
+insert into RESIDENT (ID, NAME, PHONE, EMAIL, MAIL, ADDRESS)
+values (230927098, 'Delroy Sinise', '0543560228', 'delroy.s@balchem.com', '26894', '39 Warwick');
